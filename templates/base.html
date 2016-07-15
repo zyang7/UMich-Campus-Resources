@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <title>Schedulez</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Rokkitt|Pacifico|Montserrat' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <meta name="description" content="Scheduler for University of Michigan courses">
+    <meta name="author" content="The Dream Team">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href=".../static/normalize.css">
+    <link rel="stylesheet" href=".../static/stylesheet.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Rokkitt|Pacifico|Montserrat' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 20px;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+    
+    {% endblock %}
+  </head>
+  <body>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+      {% block footer %}
+      {% endblock %}
+    </div>
+    <footer>
+        <p>Created by: Yoshiki Yamamoto, Zi Yang, Jack Mettler, Vladimir Krokhmal.</p>
+    </footer>
+  </body>
+</html>
