@@ -6,6 +6,4 @@ from app import app
 def index():
     data = {}
 
-    data['terms'] = get_terms()
-
     return render_template('index.html', **data)
