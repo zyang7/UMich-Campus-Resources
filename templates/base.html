@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>Campus Resources</title>
   	<link rel="stylesheet" type="text/css" href="../static/bootstrap.css"> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="smoothscroll.js"></script>
 
     <title>Campus Resources</title>
     <link rel="stylesheet" type="text/css" href="../static/skeleton.css">
@@ -16,14 +18,9 @@
   <body>
     <div id="content">
     <div class="header"> 
-      <a href="#aboutUs"> About Us </a> 
-      <a href="#academics"> Academics </a> 
-      <a href="#twitter"> Twitter </a>
-    <!--
-      <div class="button"> <a href="#aboutUs"> About Us </a> </div>
-      <div class="button"> <a href="#academics"> Academics </a> </div>
-      <div class="button"> <a href="#twitter"> Twitter </a> </div>
-      -->
+      <a href="#aboutUs" class="smoothScroll"> About Us </a> 
+      <a href="#academics" class="smoothScroll"> Academics </a> 
+      <a href="#twitter" class="smoothScroll"> Twitter </a>
     </div>
 	  {% block content %}
 	  {% endblock %}
