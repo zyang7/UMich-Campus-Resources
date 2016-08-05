@@ -29,25 +29,31 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #aboutUs {
 	height: 1000px;
-	padding-top: 90px;
+	padding-top: 50px;
 	z-index:2;
+	background-image: url("LaptopCoffee.jpg");
 }
 #academics {
 	height: 1000px;
-	padding-top: 90px;
+	padding-top: 50px;
 	z-index:2;
+	background-image: url("LaptopCoffee.jpg");
 }
 #twitter {
 	height: 1000px;
-	padding-top: 90px;
+	padding-top: 50px;
 	z-index:2;
 }
 .header {
 	z-index:1;
-	height: 90px;
-	background:#F0F0F0;
+	height: 50px;
 	position: fixed;
 	width: 100%;
+}
+t1 {
+	margin-top: 2px;
+	font-family: "Shrikhand";
+	font-size: 4.0rem;
 }
 
 /* Grid
