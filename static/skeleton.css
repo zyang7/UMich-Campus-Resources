@@ -45,15 +45,19 @@
 	z-index:2;
 }
 .header {
+	vertical-align: middle;
 	z-index:1;
 	height: 50px;
 	position: fixed;
 	width: 100%;
 }
+.tabs {
+	vertical-align: middle;
+}
 t1 {
 	margin-top: 2px;
 	font-family: "Shrikhand";
-	font-size: 4.0rem;
+	font-size: 5.0rem;
 }
 
 /* Grid
