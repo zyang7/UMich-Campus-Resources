@@ -30,16 +30,20 @@
 #aboutUs {
 	height: 1000px;
 	padding-top: 90px;
+	z-index:2;
 }
 #academics {
 	height: 1000px;
 	padding-top: 90px;
+	z-index:2;
 }
 #twitter {
 	height: 1000px;
 	padding-top: 90px;
+	z-index:2;
 }
 .header {
+	z-index:1;
 	height: 90px;
 	background:#F0F0F0;
 	position: fixed;
