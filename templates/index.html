@@ -2,9 +2,9 @@
 
 {% block content %}
 <div class="container">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-	<!--<script>
+	<script>
 	$('.smooth').on('click', function() {
 	    $.smoothScroll({
 	        scrollElement: $('body'),
@@ -14,14 +14,6 @@
 	    return false;
 	});
 	</script>-->
-	jQuery(document).ready(function($) {
-		("#primary-menu li a").click(function(event) {
-		event.preventDefault();
-    ('#primary-menu li').removeClass('current_page_item ');
-    (this).parent().addClass('current_page_item');
-    ('html,body').animate( { scrollTop:$(this.hash).offset().top - 68 } , 1000);
-
-} ); } );
 
 	<div id = "aboutUs">
 		<h1> About Us </h1>
@@ -41,11 +33,3 @@
 	<a class="twitter-timeline" data-width="300" data-height="1500" data-theme="light" href="https://twitter.com/UMich">Tweets by UMich</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>    
 {% endblock %}
-jQuery(document).ready(function($) {
-$("#primary-menu li a").click(function(event) {
-event.preventDefault();
-    $('#primary-menu li').removeClass('current_page_item ');
-    $(this).parent().addClass('current_page_item');
-    $('html,body').animate( { scrollTop:$(this.hash).offset().top - 68 } , 1000);
-
-} ); } );

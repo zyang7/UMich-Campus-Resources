@@ -31,13 +31,13 @@
 	height: 1000px;
 	padding-top: 50px;
 	z-index:2;
-	background-image: url("LaptopCoffee.jpg");
+	background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
 }
 #academics {
 	height: 1000px;
 	padding-top: 50px;
 	z-index:2;
-	background-image: url("LaptopCoffee.jpg");
+	background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
 }
 #twitter {
 	height: 1000px;
@@ -47,9 +47,10 @@
 .header {
 	vertical-align: middle;
 	z-index:1;
-	height: 50px;
+	height: 1000px;
 	position: fixed;
 	width: 100%;
+  overflow: scroll;
 }
 .tabs {
 	vertical-align: middle;
