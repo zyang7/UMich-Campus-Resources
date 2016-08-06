@@ -48,16 +48,18 @@
 .header {
 	vertical-align: middle;
 	z-index:1;
-	height: 1000px;
+	height: 100px;
 	position: fixed;
 	width: 100%;
+  background: #FFFFFF;
+  top: 0px;
   overflow: scroll;
 }
 .tabs {
 	vertical-align: middle;
 }
 t1 {
-	margin-top: 2px;
+	margin-top: 500px;
 	font-family: "Shrikhand";
 	font-size: 5.0rem;
 }
