@@ -31,19 +31,17 @@
 	height: 1000px;
 	padding-top: 50px;
 	z-index:2;
-	background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
 }
 #academics {
 	height: 1000px;
 	padding-top: 50px;
 	z-index:2;
-	background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
 }
 #twitter {
 	height: 1000px;
 	padding-top: 50px;
 	z-index:2;
-  text-align: right;
+  right: 0px;
 }
 .header {
 	vertical-align: middle;
@@ -53,7 +51,13 @@
 	width: 100%;
   background: #FFFFFF;
   top: 0px;
-  overflow: scroll;
+}
+.button {
+  vertical-align: middle;
+  position:fixed;
+  float:right;
+  top:0;
+  right:0;
 }
 .tabs {
 	vertical-align: middle;
