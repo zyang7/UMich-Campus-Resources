@@ -27,46 +27,71 @@
 
 /* Our Modifications
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#aboutUs {
-	height: 1000px;
-	padding-top: 50px;
+
+#home {
+	height: 930px;
+	padding-top: 70px;
 	z-index:2;
 }
 #academics {
-	height: 1000px;
-	padding-top: 50px;
+	height: 930px;
+	padding-top: 70px;
 	z-index:2;
 }
 #twitter {
-	height: 1000px;
-	padding-top: 50px;
+	height: 930px;
+	padding-top: 70px;
 	z-index:2;
-  right: 0px;
 }
 .header {
 	vertical-align: middle;
 	z-index:1;
-	height: 100px;
+	height: 70px;
 	position: fixed;
 	width: 100%;
-  background: #FFFFFF;
-  top: 0px;
-}
-.button {
-  vertical-align: middle;
-  position:fixed;
-  float:right;
-  top:0;
-  right:0;
-}
-.tabs {
-	vertical-align: middle;
+	background: #FFFFFF;
+	top: 0px;
 }
 t1 {
 	margin-top: 500px;
 	font-family: "Shrikhand";
 	font-size: 5.0rem;
 }
+
+#stickyNav_container {
+    top: 400px;
+    position: relative;
+  	width: 100%;
+  	max-width: 960px;
+  	margin: 0 auto;
+  	padding: 0 20px;
+  	float:right;
+}
+#stickyNav_container, #stickyNav {
+	padding-top: 60px;
+    background:white;
+    height: 60px;
+    float:right;
+}
+#stickyNav ul {
+    float:right;
+}
+
+ul {
+
+}
+li {
+	display: inline;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -328,7 +353,7 @@ label > .label-body {
 
 
 /* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+––––––––––––––––––––––––––––––––––––––––––––––––––
 ul {
   list-style: circle inside; }
 ol {
@@ -344,6 +369,7 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem; }
+*/
 
 
 /* Code
