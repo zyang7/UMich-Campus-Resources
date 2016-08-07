@@ -43,6 +43,11 @@
 	padding-top: 70px;
 	z-index:2;
 }
+#aboutUs {
+	height: 930px;
+	padding-top: 70px;
+	z-index:2;
+}
 .header {
 	vertical-align: middle;
 	z-index:1;
