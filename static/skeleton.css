@@ -29,23 +29,23 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #home {
-	height: 930px;
+	height: 860px;
 	padding-top: 70px;
 	z-index:2;
 }
 #academics {
-	height: 930px;
-	padding-top: 70px;
+	height: 860px;
+	padding-top: 140px;
 	z-index:2;
 }
 #twitter {
-	height: 930px;
-	padding-top: 70px;
+	height: 860px;
+	padding-top: 140px;
 	z-index:2;
 }
 #aboutUs {
-	height: 930px;
-	padding-top: 70px;
+	height: 860px;
+	padding-top: 140px;
 	z-index:2;
 }
 .header {
@@ -62,39 +62,28 @@ t1 {
 	font-family: "Shrikhand";
 	font-size: 5.0rem;
 }
-
 #stickyNav_container {
     top: 400px;
-    position: relative;
-  	width: 100%;
-  	max-width: 960px;
-  	margin: 0 auto;
-  	padding: 0 20px;
-  	float:right;
+    position: absolute;
+    margin: 0 auto;
 }
 #stickyNav_container, #stickyNav {
-	padding-top: 60px;
+	margin-top: 70px;
     background:white;
     height: 60px;
-    float:right;
+    width:100%;
 }
 #stickyNav ul {
-    float:right;
-}
-
-ul {
-
+    float:left;
 }
 li {
 	display: inline;
-    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     padding: 10px;
 }
-
 
 
 
@@ -106,7 +95,9 @@ li {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  background-color: #1EAEDB;
+}
 .column,
 .columns {
   width: 100%;
