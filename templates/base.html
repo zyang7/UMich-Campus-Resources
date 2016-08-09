@@ -28,28 +28,6 @@
         });
       });
     </script>
-    <script>
-      $(document).ready(function () {
-          $(window).bind('scroll', function () {
-              var vPos = $(window).scrollTop();
-              var totalH = $('#stickyNav_container').offset().top;
-              var finalSize = totalH - vPos;
-
-              console.log(finalSize);
-
-              if (finalSize <= 0) {
-                  $('#stickyNav').css({
-                      'position': 'fixed',
-                          'top': 0
-                  })
-              } else {
-                  $('#stickyNav').css({
-                      'position': 'static'
-                  })
-              }
-          });
-      });
-    </script>
     <title>Campus Resources</title>
     <link rel="stylesheet" type="text/css" href="../static/skeleton.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
@@ -63,11 +41,11 @@
       <div class="container">
         <div class="header"> 
           <a href="#home" style="text-decoration:none"> <t1> Campus Resources </t1> </a>
-          <!--
-          <a class="button button-primary" href="#twitter">Twitter</a>
-          <a class="button button-primary" href="#aboutUs">About Us</a>
-          <a class="button button-primary" href="#academics">Academics</a>
-          -->
+          <ul>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#academics">Academics</a></li>
+          </ul>
         </div>
       </div>
       {% block content %}

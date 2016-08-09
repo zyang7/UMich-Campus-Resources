@@ -62,20 +62,6 @@ t1 {
 	font-family: "Shrikhand";
 	font-size: 5.0rem;
 }
-#stickyNav_container {
-    top: 400px;
-    position: absolute;
-    margin: 70 auto;
-}
-#stickyNav_container, #stickyNav {
-	margin-top: 70px;
-    background: white;
-    height: 60px;
-    width:100%;
-}
-#stickyNav ul {
-    float:left;
-}
 li {
 	float: left;
     list-style-type: none;
