@@ -32,7 +32,6 @@
     <link rel="stylesheet" type="text/css" href="../static/skeleton.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
-    
     {% block head %}
     {% endblock %}
   </head>
@@ -41,14 +40,12 @@
       <div class="container">
         <div class="header"> 
           <a href="#twitter" style="text-decoration:none"> <t1> Campus Resources </t1> </a>
-          <ul>
-            <li><a href="#twitter">Twitter</a></li>
-            <li><a href="#aboutUs">About Us</a></li>
-            <li><a href="#academics">Academics</a></li>
-            <li><a href="#health">Health</a></li>
-            <li><a href="#orgs">Organizations</a></li>
-          </ul>
-
+        </div>
+        <div class="tabs" style="text-decoration:none">
+          <a href="#academics" style="text-decoration:none">Academics</a>
+          <a href="#health" style="text-decoration:none">Health</a>
+          <a href="#orgs" style="text-decoration:none">Organizations</a>
+          <a href="#aboutUs" style="text-decoration:none">About Us</a>
         </div>
       </div>
       {% block content %}
